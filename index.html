@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Educational Study Material App</title>
+    <style>
+        /* Add your custom CSS styles here */
+        /* For example, you can style the navbar */
+        .navbar {
+            background-color: #ff0000;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+        }
+
+        .navbar a {
+            margin-right: 10px;
+            text-decoration: none;
+            color: #ff0000;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <!-- Add your navbar content here -->
+        <a href="/">Home</a>
+        <a href="/buy">Buy</a>
+        <a href="/courses">View Courses</a>
+        <a href="/about">About</a>
+    </div>
+    <div class="content">
+        <!-- Content will be rendered here -->
+        {{content}}
+    </div>
+</body>
+</html>
